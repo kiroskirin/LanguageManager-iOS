@@ -9,13 +9,13 @@
 import UIKit
 
 class SplashViewController: UIViewController {
-
-  // MARK: - ViewController lifecycle
-
-  override func viewDidLoad() {
-    super.viewDidLoad()
-    DispatchQueue.main.asyncAfter(deadline: DispatchTime.now() + 2) {
-      self.performSegue(withIdentifier: "nextPage", sender: self)
+    
+    // MARK: - ViewController lifecycle
+    
+    override func viewDidLoad() {
+        super.viewDidLoad()
+        DispatchQueue.main.asyncAfter(deadline: DispatchTime.now() + 1) {
+            self.performSegue(withIdentifier: "nextPage", sender: self)
+        }
     }
-  }
 }

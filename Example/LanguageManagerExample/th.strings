@@ -1,0 +1,9 @@
+/* 
+  th.strings
+  LanguageManagerExample
+
+  Created by Kraisorn Soisakhu on 3/19/22.
+  Copyright © 2022 CocoaPods. All rights reserved.
+*/
+
+"support_language_table" = "ทดสอบแปลภาษาด้วย strings";
